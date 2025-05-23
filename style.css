@@ -50,3 +50,51 @@ button:hover {
 .suggestions div:hover {
   background-color: #f0f0f0;
 }
+
+.table-group {
+  margin-bottom: 10px;
+}
+
+.table-header {
+  background-color: #f8f9fa;  /* Light gray background */
+  color: #333;               /* Dark gray text */
+  border: 1px solid #ddd;    /* Light border */
+  padding: 12px;
+  width: 100%;
+  text-align: left;
+  font-size: 1.1em;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  transition: background-color 0.2s;
+}
+
+.table-header:hover {
+  background-color: #e9ecef;  /* Slightly darker gray on hover */
+  color: #222;
+}
+
+.guest-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0 0 20px;
+  display: none;
+}
+
+.guest-list li {
+  padding: 5px 0;
+}
+
+.arrow {
+  color: #666;  /* Darker arrow color */
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+
+.table-header:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
